@@ -1,0 +1,3 @@
+# delete sourcemap webpack plugin
+
+这是一个删除webpack构建完后sourcemap的插件，可用于sentry等需要删除sourcemap的场景
