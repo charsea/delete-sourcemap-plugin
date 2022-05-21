@@ -9,11 +9,11 @@ class DeletePlugin {
   apply(compiler) {
     if (compiler.hooks) {
       compiler.hooks.done.tap("delete-source-map", (stats) => {
-        this.removeMapSoucre(stats);
+        this.removeSoucreMap(stats);
       });
     } else if (compiler.plugin) {
       compiler.plugin("done", (stats) => {
-        this.removeMapSoucre(stats);
+        this.removeSoucreMap(stats);
       });
     } else {
       console.log(

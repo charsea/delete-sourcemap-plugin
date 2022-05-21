@@ -2,7 +2,7 @@
   "name": "delete-sourcemap-plugin",
   "version": "1.0.1",
   "description": "delete sourcemap plugin for webpack",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,9 +14,17 @@
     "sentry",
     "plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charvae/delete-sourcemap-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Charvae/delete-sourcemap-plugin/issues"
+  },
+  "homepage": "https://github.com/Charvae/delete-sourcemap-plugin#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/webpack": "^5.28.0",
-    "chalk": "^5.0.1"
+    "chalk": "4.1.2"
   }
 }
