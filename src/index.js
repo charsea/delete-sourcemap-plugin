@@ -22,7 +22,7 @@ class DeletePlugin {
     }
   }
 
-  removeSoucreMap() {
+  removeSoucreMap(stats) {
     const outputPath = stats.compilation.outputOptions.path;
     let countMatchMapAssets = 0;
     Object.keys(stats.compilation.assets)
