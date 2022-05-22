@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const chalk = require("chalk");
-class DeletePlugin {
+class DeleteSourceMapPlugin {
   /**
    *
    * @param  {import('webpack').Compiler} compiler
@@ -46,4 +46,4 @@ class DeletePlugin {
   }
 }
 
-module.exports = DeletePlugin;
+module.exports = DeleteSourceMapPlugin;
